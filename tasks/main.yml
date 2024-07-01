@@ -1,13 +1,13 @@
 ---
 
-- include: install.yml
+- include_tasks: install.yml
   tags:
     - system
     - swap
     - install
     - swap-install
 
-- include: config.yml
+- include_tasks: config.yml
   tags:
     - system
     - swap
